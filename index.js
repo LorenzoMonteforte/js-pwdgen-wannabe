@@ -1,0 +1,12 @@
+const nome = prompt("Inserisci il tuo nome");
+// console.log(nome);
+const cognome = prompt("Inserisci il tuo cognome");
+// console.log(cognome);
+const colorePreferito = prompt("Inserisci il tuo colore preferito");
+// console.log(colorePreferito);
+const anno = "#23";
+// console.log(anno);
+const password = nome + cognome + colorePreferito + anno;
+// console.log(password);
+const passwordContainer = document.getElementById("passwordContainer");
+passwordContainer.innerHTML = password;
